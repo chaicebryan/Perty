@@ -6,12 +6,12 @@ import java.util.List;
 
 public class Ticket {
 
-    private int ticketNumber;
     private String name;
     private String description;
     private List<Ticket> blockedBy;
     private List<String> comments;
     private Date creation_date;
+    private int ticketNumber;
 
     public Ticket(int ticketNumber,
                   String name,
