@@ -26,7 +26,7 @@ public class Backlog {
                 .filter((t) -> t.getBlockedBy().contains(ticket))
                 .collect(Collectors.toList());
     }
-    
+
     public void addTicket(Ticket ticket){
         tickets.add(ticket);
     }
